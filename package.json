@@ -1,0 +1,9 @@
+{
+  "name": "llamacpp-provider",
+  "version": "1.0.0",
+  "keywords": ["pi-package"],
+  "description": "llama.cpp custom provider for pi — shareable via git",
+  "pi": {
+    "extensions": ["./extensions"]
+  }
+}
