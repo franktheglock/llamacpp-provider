@@ -1,9 +1,13 @@
 {
   "name": "llamacpp-provider",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": ["pi-package"],
   "description": "llama.cpp custom provider for pi — shareable via git",
   "pi": {
     "extensions": ["./extensions"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-coding-agent": "*"
   }
 }
